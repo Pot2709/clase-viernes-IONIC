@@ -1,0 +1,20 @@
+<ion-button size="small" color="primary" expand="block" id="bienvenida"> Saludo Bienvenida </ion-button>
+  <ion-alert trigger="bienvenida" header="Bienvenido"  
+                               subHeader="Un Gusto"   
+                              message="Que lo disfrutes!">
+                            </ion-alert>
+
+  <ion-button fill="outline" color="tertiary" expand="block" id="saludar"> Saludo Salida </ion-button>
+  <ion-alert trigger="saludar" header="Salida"  
+                               subHeader="Un Gusto"   
+                              message="Hasta Pronto!">                                           
+                              </ion-alert>
+
+
+                              
+  <ion-button shape="round" color="secondary" expand="block" id="hola">Hola</ion-button>
+  <ion-alert trigger="hola" header="HOla"  
+                               subHeader="Un Gusto"   
+                              message="Holaaaaa!">                                           
+                              </ion-alert>
+    </ion-content>
